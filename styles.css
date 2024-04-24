@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap');
+
+*  
+    {
+        font-family: 'Poppins',sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+a 
+    {
+        text-decoration: none;
+    }
+
+.logo {
+    width   : auto;
+    height  : 125px;
+}
+
+.carousel-caption .btn {
+    background-color: #44ACB7;
+    color: #fff;
+}
+
+.navbar .container .logo img {
+    padding-left: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .container {
+    width: 100px;
+    height: 100px;
+}
+
+.up {
+    top: 150px;
+}
+
+.d-item {
+    height: 680px;
+}
+
+.d-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.container
+    {
+        min-width: 100%;
+    }
+
+.header-content
+    {
+        display: flex;
+        padding: 80px 0 0 0;
+    }
+
+.header-txt
+    {
+        flex-basis: 50%;
+    }
+
+.header-txt span
+    {
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+.header-txt h1
+    {
+        font-size: 50px;
+        line-height: 1;
+        color: #000d83;
+        font-family: 'Bebas Neue', sans-serif;
+        margin-bottom: 15px;
+    }
+
+.header-content .header-txt p
+    {
+        font-size: 18px;
+        color: #2c39aa;
+        margin-bottom: 50px;
+    }
+
+.btn-1
+    {
+        display: inline-block;
+        padding: 14px 25px;
+        background-color: #000d83;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(33, 40, 105, .5);
+    }
+
+.card-text
+    {
+        text-align: justify;
+    }
+
+    .card-body p {
+        text-align: justify;
+    }
+
+
+.navbar .container
+    {
+        padding: 30px 0 20px 0px;
+    }
+
+.navbar a
+    {
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel.inner .carousel-item-prev {
+    display: flex;
+    justify-content: center;
+}
+
+.car .card-body {
+    width: 200px;
+    height: 150px;
+}
+
+.card .card-body img {
+    width: 100%;
+    height: 100%;
+}
+
+.services
+    {
+        padding: 80px 0;
+    }
+
+
+.bg-car1
+    {
+        background-image:  linear-gradient(
+            rgba(0,0,0,0),
+            rgba(0,0,0,0)
+        ), url(resources/saco01.jpg);
+        
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.bg-car2
+    {
+        background-image:  linear-gradient(
+            rgba(0,0,0,0),
+            rgba(0,0,0,0)
+        ), url(resources/novia1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.bg-car3
+    {
+        background-image:  linear-gradient(
+            rgba(0,0,0,0),
+            rgba(0,0,0,0)
+        ), url(resources/saco02.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.box-icons i
+    {
+        font-size: 40px;
+    }
+
+.box-icons h3
+    {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+.nosotros
+    {
+        padding: 70px 0;
+    }
+
+.product
+    {
+        padding: 80px 0;
+    }
+
+.nosotros span
+    {
+        font-size: 18px;
+        text-transform: capitalize;
+        
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+.ms-4 {
+    justify-content:center;
+    
+}
+
+.card img
+    {
+        width: 380px;
+        height: 250px;
+    }
+
+
+
+    .contenido {
+        height: 400px;
+        background-image: url(resources/Recurso-4-3.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        filter: brightness(0.5);
+    }
+    
+    .contenido:before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        content: "";
+        background: #000;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .contenido .titulo {
+        color: #ffffff;
+        z-index: 1;
+        padding-top: 10%;
+    }
+
+
+@media(max-width: 767px) {
+    .carousel-item{
+        min-height: 500px;
+    }
+    .carousel-item img{
+        height: 500px;
+    }
+    .carousel-caption{
+        bottom: 30px;
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .services{
+        padding: 30px 0;
+    }
+    .product{
+        padding: 30px 0 0 0;
+    }
+    .banner{
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media(max-width: 350px) {
+    .header-content h1{
+        font-size: 16px;
+    }
+}
+
+.car-1 .card-body {
+    background-color: #44ACB7;
+}
+
+
+
+.car-1 .card {
+    background-color: #44ACB7;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
