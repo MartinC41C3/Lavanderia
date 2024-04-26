@@ -14,6 +14,11 @@ a
         text-decoration: none;
     }
 
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
 .logo {
     width   : auto;
     height  : 125px;
@@ -25,15 +30,20 @@ a
 }
 
 .navbar .container .logo img {
-    padding-left: 50px;
+    padding-left: 30px;
     width: 100%;
     height: 100%;
 }
 
 .navbar .container {
-    width: 100px;
-    height: 100px;
+    height: 90px;
 }
+
+
+
+
+
+
 
 .up {
     top: 150px;
@@ -113,11 +123,6 @@ a
     }
 
 
-.navbar .container
-    {
-        padding: 30px 0 20px 0px;
-    }
-
 .navbar a
     {
         font-weight: 500;
@@ -134,8 +139,10 @@ a
 }
 
 .car .card-body {
-    width: 200px;
-    height: 150px;
+    width: 180px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card .card-body img {
@@ -248,14 +255,98 @@ a
         z-index: -1;
     }
 
+
     .contenido .titulo {
         color: #ffffff;
         z-index: 1;
         padding-top: 10%;
     }
 
+    @media(max-width: 990px) {
+        .navbar .container {
+            height: 80px;
+        }
+        
+        .car .card-body {
+            width: 150px;
+            height: 100px;
+        }
+        
+        .card .card-body img {
+            width: 150px;
+            height: 100px;
+        }
+
+
+
+        .carousel-item {
+            width: 100px;
+            height: 100px;
+        }
+
+        .carousel-caption p {
+            font-size: 18px;
+        }
+    
+        .carousel-caption h2 {
+            font-size: 50px;
+        }
+    
+        .logo {
+            width   : auto;
+            height  : 90px;
+        }
+    
+        .carousel-item{
+            min-height: 500px;
+        }
+        .carousel-item img{
+            height: 500px;
+        }
+
+        .carousel-item {
+            min-width: 100px;
+        }
+
+        .carousel-caption{
+            bottom: 30px;
+        }
+        .carousel-caption h5{
+            font-size: 30px;
+            margin-top: 0;
+        }
+        .carousel-caption p{
+            width: 100%;
+            font-size: 16px;
+        }
+        
+        .car .card-body {
+            width: 180px;
+            height: 130px;
+        }
+  
+    }
+
+
 
 @media(max-width: 767px) {
+    .navbar .container {
+        height: 70px;
+    }
+
+    .carousel-caption p {
+        font-size: 8px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 35px;
+    }
+
+    .logo {
+        width   : auto;
+        height  : 80px;
+    }
+
     .carousel-item{
         min-height: 500px;
     }
@@ -266,7 +357,7 @@ a
         bottom: 30px;
     }
     .carousel-caption h5{
-        font-size: 50px;
+        font-size: 30px;
         margin-top: 0;
     }
     .carousel-caption p{
@@ -285,17 +376,68 @@ a
     
 }
 
-@media(max-width: 350px) {
+@media(max-width: 375px) {
     .header-content h1{
         font-size: 16px;
     }
+    .navbar .container {
+        height: 70px;
+    }
+
+    footer {
+        top: 1200px;
+    }
+
+    .navbar .container {
+        height: 70px;
+    }
+
+
+    .carousel-item{
+        min-height: 570px;
+    }
+    .carousel-item img{
+        width: 760px;
+        height: 570px;
+    }
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .services{
+        padding: 20px 0;
+    }
+    .product{
+        padding: 20px 0 0 0;
+    }
+    .banner{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+.car-1 {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
 }
 
 .car-1 .card-body {
     background-color: #44ACB7;
 }
-
-
 
 .car-1 .card {
     background-color: #44ACB7;
